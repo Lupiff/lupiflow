@@ -1,0 +1,17 @@
+# Godot 4 - arquivos gerados automaticamente
+.godot/
+
+# Godot 3 - se estiver usando
+.import/
+
+# Builds exportadas
+build/
+export/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de editor (VSCode, etc.)
+.vscode/
+.idea/
