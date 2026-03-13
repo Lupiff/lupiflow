@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dgn0c3cbpk5mb"
+path="res://.godot/imported/DANZA KUDURO.ogg-e2e0188c6aae9133a3630b91f40eff4b.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/AUDIOS/musicas/DANZA KUDURO.ogg"
+dest_files=["res://.godot/imported/DANZA KUDURO.ogg-e2e0188c6aae9133a3630b91f40eff4b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
