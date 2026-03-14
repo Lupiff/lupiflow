@@ -1,0 +1,107 @@
+[gd_scene format=3 uid="uid://bhpb4jj23m1df"]
+
+[ext_resource type="Texture2D" uid="uid://c5n1pdumf74tx" path="res://assets/imagens gerais/background/fundo gacha.png" id="1_bmsl2"]
+[ext_resource type="Texture2D" uid="uid://bb8qmt3k2dq4o" path="res://assets/personagens/banners/Cristiane Rosa BANNER.png" id="3_06ywj"]
+
+[sub_resource type="GDScript" id="GDScript_cyuyl"]
+script/source = "extends Control
+
+
+
+func _on_voltar_pressed() -> void:
+	get_tree().change_scene_to_file(\"res://cenas/tela inicial.tscn\")
+"
+
+[sub_resource type="LabelSettings" id="LabelSettings_cyuyl"]
+line_spacing = 9.025
+paragraph_spacing = 1.205
+font_size = 70
+outline_size = 8
+
+[sub_resource type="LabelSettings" id="LabelSettings_oajhl"]
+font_size = 31
+
+[node name="GACHA tela" type="Control" unique_id=879242141]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_cyuyl")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1309702015]
+layout_mode = 0
+offset_right = 1926.5403
+offset_bottom = 1084.0
+texture = ExtResource("1_bmsl2")
+
+[node name="PERSONAGE_ARTE" type="TextureRect" parent="." unique_id=219048142]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -649.5
+offset_top = -338.0
+offset_right = 649.5
+offset_bottom = 338.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+texture = ExtResource("3_06ywj")
+
+[node name="CharName" type="Label" parent="." unique_id=1696921218]
+layout_mode = 0
+offset_left = 340.0
+offset_top = 696.0
+offset_right = 893.0
+offset_bottom = 792.0
+text = "CRISTIANE ROSA"
+label_settings = SubResource("LabelSettings_cyuyl")
+
+[node name="STARS" type="Label" parent="." unique_id=843099770]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 783.0
+offset_right = 733.0
+offset_bottom = 827.0
+text = "⭐⭐⭐⭐⭐"
+label_settings = SubResource("LabelSettings_oajhl")
+
+[node name="BOTOES" type="HBoxContainer" parent="." unique_id=266607874]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -287.9248
+offset_top = -161.0
+offset_right = 287.9248
+offset_bottom = -36.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 68
+alignment = 1
+
+[node name="WISH_X1" type="Button" parent="BOTOES" unique_id=2045304685]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "WISH x1"
+
+[node name="WISH X10" type="Button" parent="BOTOES" unique_id=988443005]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "WISH X10"
+
+[node name="VOLTAR" type="Button" parent="." unique_id=532876844]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 23.0
+offset_right = 73.0
+offset_bottom = 70.0
+text = "X"
+
+[connection signal="pressed" from="VOLTAR" to="." method="_on_voltar_pressed"]

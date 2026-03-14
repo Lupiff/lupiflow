@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://tvqwwmab1jen"]
 
 [ext_resource type="Texture2D" uid="uid://daunscajfvg8e" path="res://assets/imagens gerais/background/MainMenuOFF.jpg" id="1_bc32w"]
+[ext_resource type="Script" uid="uid://dgj8iv8kbdvvu" path="res://scripts/tela_inicial.gd" id="1_ouvxx"]
 [ext_resource type="Texture2D" uid="uid://dtxbk06twvvos" path="res://assets/imagens gerais/background/MainMenu.jpg" id="2_21t75"]
 [ext_resource type="Texture2D" uid="uid://clme1d44m7act" path="res://assets/imagens gerais/background/AI-semfundo.png" id="3_21t75"]
 [ext_resource type="Texture2D" uid="uid://xip6wl3qh17x" path="res://assets/logos/LOGO.png" id="4_auftu"]
@@ -306,6 +307,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_ouvxx")
 
 [node name="BGOFF" type="TextureRect" parent="." unique_id=1490686889]
 layout_mode = 0
@@ -399,3 +401,5 @@ autoplay = &"reveal"
 volume_db = -43.065
 script = ExtResource("17_2ejqr")
 musicas = Array[AudioStream]([ExtResource("21_tlbvp"), ExtResource("20_etcgl"), ExtResource("19_ouvxx"), ExtResource("18_8bsls")])
+
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
