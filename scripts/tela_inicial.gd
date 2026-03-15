@@ -11,6 +11,9 @@ func _process(delta: float) -> void:
 	pass
 
 
+func _on_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://cenas/team_select_screen.tscn")
+
 
 func _on_button_3_pressed() -> void:
 	get_tree().change_scene_to_file("res://cenas/gacha_tela.tscn")
