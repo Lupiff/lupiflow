@@ -15,6 +15,10 @@ run/main_scene="uid://tvqwwmab1jen"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+MusicController="*uid://djpomaqjel6ps"
+
 [display]
 
 window/size/viewport_width=1920

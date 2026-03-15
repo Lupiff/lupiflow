@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://djpomaqjel6ps"]
+
+[ext_resource type="Script" uid="uid://c82fwklk7xq3t" path="res://scripts/music_controller.gd" id="1_d7n6t"]
+[ext_resource type="AudioStream" uid="uid://dgn0c3cbpk5mb" path="res://assets/AUDIOS/musicas/DANZA KUDURO.ogg" id="1_s8bfw"]
+[ext_resource type="AudioStream" uid="uid://c41jmbhxwtp5" path="res://assets/AUDIOS/musicas/Feet Don't Fail Me Now - Joy Crookes.ogg" id="2_u088h"]
+[ext_resource type="AudioStream" uid="uid://cnnclqw7j8pgv" path="res://assets/AUDIOS/musicas/GENIUS.ogg" id="3_d7n6t"]
+[ext_resource type="AudioStream" uid="uid://dofitsjrpaex6" path="res://assets/AUDIOS/musicas/Obsessão Fatal (Tomie) - OSteve - OSteve.ogg" id="4_lm3s6"]
+[ext_resource type="Script" uid="uid://csg3nm5p83175" path="res://scripts/menu_musicas.gd" id="5_u088h"]
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_jdydc"]
+streams_count = 4
+stream_0/stream = ExtResource("1_s8bfw")
+stream_1/stream = ExtResource("2_u088h")
+stream_2/stream = ExtResource("3_d7n6t")
+stream_3/stream = ExtResource("4_lm3s6")
+
+[node name="MusicController" type="Node2D" unique_id=1289307606]
+script = ExtResource("1_d7n6t")
+
+[node name="MenuMusicas" type="AudioStreamPlayer" parent="." unique_id=2134300235]
+stream = SubResource("AudioStreamRandomizer_jdydc")
+volume_db = -18.105
+autoplay = true
+script = ExtResource("5_u088h")
+
+[connection signal="finished" from="MenuMusicas" to="MenuMusicas" method="_on_finished"]
