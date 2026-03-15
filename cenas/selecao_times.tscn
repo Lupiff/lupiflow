@@ -1,0 +1,142 @@
+[gd_scene format=3 uid="uid://db7v5eip5qdf0"]
+
+[ext_resource type="Texture2D" uid="uid://dtxbk06twvvos" path="res://assets/imagens gerais/background/MainMenu.jpg" id="1_8mh2u"]
+[ext_resource type="Script" uid="uid://x1r1dd3owdca" path="res://scripts/selecao_times.gd" id="1_n0ixc"]
+[ext_resource type="Texture2D" uid="uid://podb4vj7hbk" path="res://assets/logos/times/FLAMENGO.png" id="2_ko0od"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n0ixc"]
+bg_color = Color(0.05863948, 0.06811635, 0.12504002, 0.7411765)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0.84313726, 0.98039216, 0.31764707)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="SelecaoTimes" type="Control" unique_id=1350575066]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_n0ixc")
+
+[node name="BGON" type="TextureRect" parent="." unique_id=1429844483]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("1_8mh2u")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=185082866]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -286.0
+offset_top = -397.0
+offset_right = 286.0
+offset_bottom = 245.9624
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_n0ixc")
+
+[node name="BtnSelect" type="Button" parent="." unique_id=167037824]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -284.0
+offset_top = 266.4812
+offset_right = 288.0
+offset_bottom = 395.9624
+grow_horizontal = 2
+grow_vertical = 2
+text = "SELECIONAR"
+
+[node name="TimeNome" type="Label" parent="." unique_id=188667514]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -67.0
+offset_top = -340.0
+offset_right = 67.0
+offset_bottom = -300.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 43
+text = "Nome Time"
+horizontal_alignment = 1
+
+[node name="BtnPrev" type="Button" parent="." unique_id=1132829515]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 0
+offset_left = 698.0
+offset_top = 435.0
+offset_right = 748.0
+offset_bottom = 506.0
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 45
+text = "◀"
+
+[node name="Escudo_Time" type="TextureRect" parent="." unique_id=1147128673]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -208.0
+offset_top = 266.0
+offset_right = 314.7849
+offset_bottom = 788.7848
+grow_horizontal = 2
+scale = Vector2(0.79, 0.79)
+texture = ExtResource("2_ko0od")
+
+[node name="BtnNext" type="Button" parent="." unique_id=1796406519]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 0
+offset_left = 1169.0
+offset_top = 435.0
+offset_right = 1219.0
+offset_bottom = 506.0
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 45
+text = "▶"
+
+[node name="OverallLabel" type="Label" parent="." unique_id=1979576664]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -68.0
+offset_top = 165.0
+offset_right = 68.0
+offset_bottom = 212.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 27
+text = "Overral 99"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=689751352]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 68.0
+offset_bottom = 67.0
+text = "X"
+
+[connection signal="pressed" from="BtnPrev" to="." method="_on_btn_prev_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
