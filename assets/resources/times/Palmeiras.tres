@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="TeamData" format=3 uid="uid://bhwt4rgvrcbuq"]
+
+[ext_resource type="Script" uid="uid://duo2uguaqhb4m" path="res://assets/resources/times/TeamData.gd" id="1_hroif"]
+[ext_resource type="Texture2D" uid="uid://cyp38ja8i2vdu" path="res://assets/logos/times/PALMEIRAS.png" id="2_ow4j4"]
+
+[resource]
+script = ExtResource("1_hroif")
+name = "PALMEIRAS"
+overall = 91
+stars = 4
+texture = ExtResource("2_ow4j4")
+metadata/_custom_type_script = "uid://duo2uguaqhb4m"

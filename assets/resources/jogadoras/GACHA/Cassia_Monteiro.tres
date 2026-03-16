@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://chj2g30pul473"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_oqaoe"]
+
+[resource]
+script = ExtResource("1_oqaoe")
+name = "Cassia Monteiro"
+number = 18
+position = "VOL"
+overall = 97
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

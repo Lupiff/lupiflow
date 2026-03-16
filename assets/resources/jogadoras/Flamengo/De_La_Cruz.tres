@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://06hwfr4ryimy"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_t2x5x"]
+
+[resource]
+script = ExtResource("1_t2x5x")
+name = "De la Cruz"
+number = 18
+position = "MC"
+overall = 82
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

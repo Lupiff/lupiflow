@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://cxkq4jun8e676"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_xfhfo"]
+
+[resource]
+script = ExtResource("1_xfhfo")
+name = "Bruna"
+number = 27
+position = "ATA"
+overall = 92
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

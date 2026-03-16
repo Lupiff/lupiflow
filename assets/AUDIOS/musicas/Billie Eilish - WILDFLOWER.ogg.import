@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c1f5peljqmo77"
+path="res://.godot/imported/Billie Eilish - WILDFLOWER.ogg-2efd9261cc9d3642d70646778099a66c.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/AUDIOS/musicas/Billie Eilish - WILDFLOWER.ogg"
+dest_files=["res://.godot/imported/Billie Eilish - WILDFLOWER.ogg-2efd9261cc9d3642d70646778099a66c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

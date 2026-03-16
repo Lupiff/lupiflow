@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://bj4u887mhm8nl"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_d0x7c"]
+
+[resource]
+script = ExtResource("1_d0x7c")
+name = "Alessandra"
+number = 26
+position = "LE"
+overall = 84
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

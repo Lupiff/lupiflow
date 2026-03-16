@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://doqe7abwsdbpv"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_wj51o"]
+
+[resource]
+script = ExtResource("1_wj51o")
+name = "Leona Meissi"
+number = 10
+position = "ATA"
+overall = 100
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://cnhkrvju6n7m2"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_r66rp"]
+
+[resource]
+script = ExtResource("1_r66rp")
+name = "Karine De Bruyne"
+number = 17
+position = "MC"
+overall = 99
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

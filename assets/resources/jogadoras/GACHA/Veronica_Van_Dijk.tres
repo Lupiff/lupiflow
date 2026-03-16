@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://cyky5be306ynd"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_3aguv"]
+
+[resource]
+script = ExtResource("1_3aguv")
+name = "Verônica Van Dijk"
+number = 4
+position = "ZAG"
+overall = 99
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://qy7gvfxsbkoa"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_qjxwv"]
+
+[resource]
+script = ExtResource("1_qjxwv")
+name = "Teodora Nantes"
+number = 22
+position = "LE"
+overall = 97
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

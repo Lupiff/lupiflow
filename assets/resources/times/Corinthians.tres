@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="TeamData" format=3 uid="uid://dmony7axxeugo"]
+
+[ext_resource type="Script" uid="uid://duo2uguaqhb4m" path="res://assets/resources/times/TeamData.gd" id="1_h7ibn"]
+[ext_resource type="Texture2D" uid="uid://bbmhylw83ldgl" path="res://assets/logos/times/CORINTHIANS.png" id="2_uanu5"]
+
+[resource]
+script = ExtResource("1_h7ibn")
+name = "CORINTHIANS"
+overall = 88
+stars = 3
+texture = ExtResource("2_uanu5")
+metadata/_custom_type_script = "uid://duo2uguaqhb4m"

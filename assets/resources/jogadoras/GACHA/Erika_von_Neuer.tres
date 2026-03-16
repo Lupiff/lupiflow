@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://bv7nsy4we8u8"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_iincx"]
+
+[resource]
+script = ExtResource("1_iincx")
+name = "Erika von Neuer"
+number = 1
+position = "GOL"
+overall = 100
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

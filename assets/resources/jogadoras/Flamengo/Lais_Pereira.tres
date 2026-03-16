@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://bp4dvhxkoj06"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_7fbvg"]
+
+[resource]
+script = ExtResource("1_7fbvg")
+name = "Laís Pereira"
+number = 4
+position = "ZAG"
+overall = 90
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

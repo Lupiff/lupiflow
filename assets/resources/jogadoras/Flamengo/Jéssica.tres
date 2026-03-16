@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://dsk4o08gbjei0"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_075x1"]
+
+[resource]
+script = ExtResource("1_075x1")
+name = "Jéssica"
+number = 21
+position = "VOL"
+overall = 99
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

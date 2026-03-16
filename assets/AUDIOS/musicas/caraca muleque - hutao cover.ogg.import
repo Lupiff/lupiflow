@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bhnmqmmq0tka6"
+path="res://.godot/imported/caraca muleque - hutao cover.ogg-5a101b6b47a7e944f9b44869e3fcd4fb.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/AUDIOS/musicas/caraca muleque - hutao cover.ogg"
+dest_files=["res://.godot/imported/caraca muleque - hutao cover.ogg-5a101b6b47a7e944f9b44869e3fcd4fb.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

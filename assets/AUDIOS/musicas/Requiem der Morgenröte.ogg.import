@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cy0w22aa6nkdh"
+path="res://.godot/imported/Requiem der Morgenröte.ogg-a88022b7e4a0e4d4bcb583d364acae3c.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/AUDIOS/musicas/Requiem der Morgenröte.ogg"
+dest_files=["res://.godot/imported/Requiem der Morgenröte.ogg-a88022b7e4a0e4d4bcb583d364acae3c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://d35bt0ucu3uhk"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_ypj5a"]
+
+[resource]
+script = ExtResource("1_ypj5a")
+name = "Paqueta"
+number = 20
+position = "MC"
+overall = 102
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

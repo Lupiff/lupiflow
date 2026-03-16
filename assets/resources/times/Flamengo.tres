@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TeamData" format=3 uid="uid://cxt0e4olxtmmd"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_fsu86"]
+[ext_resource type="Script" uid="uid://duo2uguaqhb4m" path="res://assets/resources/times/TeamData.gd" id="1_u258p"]
+[ext_resource type="Resource" uid="uid://cyjbfh7hn2bd0" path="res://assets/resources/jogadoras/Flamengo/Rossine.tres" id="2_3hjmu"]
+[ext_resource type="Texture2D" uid="uid://podb4vj7hbk" path="res://assets/logos/times/FLAMENGO.png" id="2_ksrv5"]
+[ext_resource type="Resource" uid="uid://cww71gmk8dkmd" path="res://assets/resources/jogadoras/Flamengo/Arrasca.tres" id="3_uc634"]
+
+[resource]
+script = ExtResource("1_u258p")
+name = "FLAMENGO"
+overall = 102
+stars = 5
+texture = ExtResource("2_ksrv5")
+players = Array[ExtResource("1_fsu86")]([ExtResource("2_3hjmu"), ExtResource("3_uc634")])
+metadata/_custom_type_script = "uid://duo2uguaqhb4m"

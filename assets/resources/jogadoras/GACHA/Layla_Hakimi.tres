@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://5vb2hypxk83p"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_tbcyc"]
+
+[resource]
+script = ExtResource("1_tbcyc")
+name = "Layla Hakimi"
+number = 2
+position = "LD"
+overall = 98
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

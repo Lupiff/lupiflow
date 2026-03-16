@@ -6,13 +6,25 @@
 [ext_resource type="AudioStream" uid="uid://cnnclqw7j8pgv" path="res://assets/AUDIOS/musicas/GENIUS.ogg" id="3_d7n6t"]
 [ext_resource type="AudioStream" uid="uid://dofitsjrpaex6" path="res://assets/AUDIOS/musicas/Obsessão Fatal (Tomie) - OSteve - OSteve.ogg" id="4_lm3s6"]
 [ext_resource type="Script" uid="uid://csg3nm5p83175" path="res://scripts/menu_musicas.gd" id="5_u088h"]
+[ext_resource type="AudioStream" uid="uid://c1f5peljqmo77" path="res://assets/AUDIOS/musicas/Billie Eilish - WILDFLOWER.ogg" id="6_uf7h1"]
+[ext_resource type="AudioStream" uid="uid://bhnmqmmq0tka6" path="res://assets/AUDIOS/musicas/caraca muleque - hutao cover.ogg" id="7_e8f8h"]
+[ext_resource type="AudioStream" uid="uid://cund51k4rcyv8" path="res://assets/AUDIOS/musicas/OMG - NewJeans.ogg" id="8_4yfl8"]
+[ext_resource type="AudioStream" uid="uid://cy0w22aa6nkdh" path="res://assets/AUDIOS/musicas/Requiem der Morgenröte.ogg" id="9_8wcuw"]
+[ext_resource type="AudioStream" uid="uid://trfjqlsmnl8c" path="res://assets/AUDIOS/musicas/Yousei Teikoku - Kuusou Mesorogiwi.ogg" id="10_4ffpt"]
+[ext_resource type="AudioStream" uid="uid://chandg71sjq6u" path="res://assets/AUDIOS/musicas/【Ado】MIRROR - Ado.ogg" id="11_ecgj8"]
 
 [sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_jdydc"]
-streams_count = 4
+streams_count = 10
 stream_0/stream = ExtResource("1_s8bfw")
 stream_1/stream = ExtResource("2_u088h")
 stream_2/stream = ExtResource("3_d7n6t")
 stream_3/stream = ExtResource("4_lm3s6")
+stream_4/stream = ExtResource("6_uf7h1")
+stream_5/stream = ExtResource("7_e8f8h")
+stream_6/stream = ExtResource("8_4yfl8")
+stream_7/stream = ExtResource("9_8wcuw")
+stream_8/stream = ExtResource("10_4ffpt")
+stream_9/stream = ExtResource("11_ecgj8")
 
 [node name="MusicController" type="Node2D" unique_id=1289307606]
 script = ExtResource("1_d7n6t")

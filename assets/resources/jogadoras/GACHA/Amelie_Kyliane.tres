@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://drxn8jwwo6wep"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_nbcil"]
+
+[resource]
+script = ExtResource("1_nbcil")
+name = "Amélie Kyliane"
+number = 10
+position = "ATA"
+overall = 99
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

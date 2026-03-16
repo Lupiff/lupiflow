@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://cww71gmk8dkmd"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_0baj4"]
+
+[resource]
+script = ExtResource("1_0baj4")
+name = "Arrasca"
+number = 10
+position = "MC"
+overall = 95
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"
