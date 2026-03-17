@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://dme2p3cvfimdb"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_wlvgm"]
+
+[resource]
+script = ExtResource("1_wlvgm")
+name = "Gianna Garro"
+number = 8
+position = "MC"
+overall = 76
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

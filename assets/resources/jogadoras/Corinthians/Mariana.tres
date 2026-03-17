@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://d1tfpftraln1i"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_etqru"]
+
+[resource]
+script = ExtResource("1_etqru")
+name = "Mariana"
+number = 21
+position = "ZAG"
+overall = 79
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

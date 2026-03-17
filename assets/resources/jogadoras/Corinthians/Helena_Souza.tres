@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://c8wsoldxfwh2x"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_x4lyu"]
+
+[resource]
+script = ExtResource("1_x4lyu")
+name = "Helena Souza"
+number = 1
+position = "GOL"
+overall = 81
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

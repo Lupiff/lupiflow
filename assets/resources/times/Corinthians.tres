@@ -1,12 +1,26 @@
 [gd_resource type="Resource" script_class="TeamData" format=3 uid="uid://dmony7axxeugo"]
 
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_15uuw"]
 [ext_resource type="Script" uid="uid://duo2uguaqhb4m" path="res://assets/resources/times/TeamData.gd" id="1_h7ibn"]
 [ext_resource type="Texture2D" uid="uid://bbmhylw83ldgl" path="res://assets/logos/times/CORINTHIANS.png" id="2_uanu5"]
+[ext_resource type="Resource" uid="uid://647rbf5g0cwg" path="res://assets/resources/jogadoras/Corinthians/Andressa_Portillo.tres" id="2_wvky0"]
+[ext_resource type="Resource" uid="uid://djsesrpsf3mja" path="res://assets/resources/jogadoras/Corinthians/Andressa_Ramos.tres" id="3_hlk02"]
+[ext_resource type="Resource" uid="uid://7does0xlafoi" path="res://assets/resources/jogadoras/Corinthians/Beatriz_Bond.tres" id="4_mclgh"]
+[ext_resource type="Resource" uid="uid://tan0kmq2tdtn" path="res://assets/resources/jogadoras/Corinthians/Gabi.tres" id="5_0kg6r"]
+[ext_resource type="Resource" uid="uid://dme2p3cvfimdb" path="res://assets/resources/jogadoras/Corinthians/Gianna_Garro.tres" id="6_mcec2"]
+[ext_resource type="Resource" uid="uid://c8wsoldxfwh2x" path="res://assets/resources/jogadoras/Corinthians/Helena_Souza.tres" id="7_mrtb7"]
+[ext_resource type="Resource" uid="uid://cn1bmhi23gqu2" path="res://assets/resources/jogadoras/Corinthians/Jesse.tres" id="8_la513"]
+[ext_resource type="Resource" uid="uid://c0b3stdgmlbnb" path="res://assets/resources/jogadoras/Corinthians/Karen_Cesar.tres" id="9_8xq0c"]
+[ext_resource type="Resource" uid="uid://d1tfpftraln1i" path="res://assets/resources/jogadoras/Corinthians/Mariana.tres" id="10_2leog"]
+[ext_resource type="Resource" uid="uid://big817f85ab3q" path="res://assets/resources/jogadoras/Corinthians/Marininha.tres" id="11_ngvpi"]
+[ext_resource type="Resource" uid="uid://ccbjfwqdij6u0" path="res://assets/resources/jogadoras/Corinthians/Mia_de_Graaf.tres" id="12_j0fue"]
+[ext_resource type="Resource" uid="uid://bde21ilu0h1oc" path="res://assets/resources/jogadoras/Corinthians/Raniellen.tres" id="13_52ns7"]
+[ext_resource type="Resource" uid="uid://bhxrf1n1dl2c5" path="res://assets/resources/jogadoras/Corinthians/Yuri.tres" id="14_f1rwa"]
 
 [resource]
 script = ExtResource("1_h7ibn")
 name = "CORINTHIANS"
-overall = 88
 stars = 3
 texture = ExtResource("2_uanu5")
+players = Array[ExtResource("1_15uuw")]([ExtResource("2_wvky0"), ExtResource("3_hlk02"), ExtResource("4_mclgh"), ExtResource("5_0kg6r"), ExtResource("6_mcec2"), ExtResource("7_mrtb7"), ExtResource("8_la513"), ExtResource("9_8xq0c"), ExtResource("10_2leog"), ExtResource("11_ngvpi"), ExtResource("12_j0fue"), ExtResource("13_52ns7"), ExtResource("14_f1rwa")])
 metadata/_custom_type_script = "uid://duo2uguaqhb4m"

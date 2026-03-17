@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://bhxrf1n1dl2c5"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_yph4k"]
+
+[resource]
+script = ExtResource("1_yph4k")
+name = "Yuri"
+number = 9
+position = "ATA"
+overall = 78
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://djsesrpsf3mja"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_j22nj"]
+
+[resource]
+script = ExtResource("1_j22nj")
+name = "Andressa Ramos"
+number = 5
+position = "ZAG"
+overall = 75
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

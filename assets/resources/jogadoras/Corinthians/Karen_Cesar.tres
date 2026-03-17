@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://c0b3stdgmlbnb"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_w6awt"]
+
+[resource]
+script = ExtResource("1_w6awt")
+name = "Karen César"
+number = 37
+position = "ATA"
+overall = 69
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

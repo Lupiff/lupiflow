@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://big817f85ab3q"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_otntl"]
+
+[resource]
+script = ExtResource("1_otntl")
+name = "Marininha"
+number = 2
+position = "LE"
+overall = 78
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://ccbjfwqdij6u0"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_us6rw"]
+
+[resource]
+script = ExtResource("1_us6rw")
+name = "Mia de Graaf"
+number = 10
+position = "ATA"
+overall = 89
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

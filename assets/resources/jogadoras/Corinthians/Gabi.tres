@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://tan0kmq2tdtn"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_fkasw"]
+
+[resource]
+script = ExtResource("1_fkasw")
+name = "Gabi"
+number = 3
+position = "ZAG"
+overall = 70
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

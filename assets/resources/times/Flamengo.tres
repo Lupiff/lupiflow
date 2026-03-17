@@ -5,12 +5,22 @@
 [ext_resource type="Resource" uid="uid://cyjbfh7hn2bd0" path="res://assets/resources/jogadoras/Flamengo/Rossine.tres" id="2_3hjmu"]
 [ext_resource type="Texture2D" uid="uid://podb4vj7hbk" path="res://assets/logos/times/FLAMENGO.png" id="2_ksrv5"]
 [ext_resource type="Resource" uid="uid://cww71gmk8dkmd" path="res://assets/resources/jogadoras/Flamengo/Arrasca.tres" id="3_uc634"]
+[ext_resource type="Resource" uid="uid://bj4u887mhm8nl" path="res://assets/resources/jogadoras/Flamengo/Alessandra.tres" id="4_63ilc"]
+[ext_resource type="Resource" uid="uid://cxkq4jun8e676" path="res://assets/resources/jogadoras/Flamengo/Bruna.tres" id="5_ifp86"]
+[ext_resource type="Resource" uid="uid://06hwfr4ryimy" path="res://assets/resources/jogadoras/Flamengo/De_La_Cruz.tres" id="6_0fr7m"]
+[ext_resource type="Resource" uid="uid://ctj32nxk65g2g" path="res://assets/resources/jogadoras/Flamengo/Erica.tres" id="7_dulmh"]
+[ext_resource type="Resource" uid="uid://dsk4o08gbjei0" path="res://assets/resources/jogadoras/Flamengo/Jéssica.tres" id="8_ruldk"]
+[ext_resource type="Resource" uid="uid://bp4dvhxkoj06" path="res://assets/resources/jogadoras/Flamengo/Lais_Pereira.tres" id="9_ubfgu"]
+[ext_resource type="Resource" uid="uid://dwphpk85niyoe" path="res://assets/resources/jogadoras/Flamengo/Lais_Órtega.tres" id="10_8l6j5"]
+[ext_resource type="Resource" uid="uid://dllrdlntjxkoa" path="res://assets/resources/jogadoras/Flamengo/Luisa_Araujo.tres" id="11_pmvcu"]
+[ext_resource type="Resource" uid="uid://d35bt0ucu3uhk" path="res://assets/resources/jogadoras/Flamengo/Paqueta.tres" id="12_w8sbm"]
+[ext_resource type="Resource" uid="uid://wqs1orolpj5h" path="res://assets/resources/jogadoras/Flamengo/Samira.tres" id="13_yw21p"]
+[ext_resource type="Resource" uid="uid://t032ii1gw7t2" path="res://assets/resources/jogadoras/Flamengo/Varela.tres" id="14_indrq"]
 
 [resource]
 script = ExtResource("1_u258p")
 name = "FLAMENGO"
-overall = 102
 stars = 5
 texture = ExtResource("2_ksrv5")
-players = Array[ExtResource("1_fsu86")]([ExtResource("2_3hjmu"), ExtResource("3_uc634")])
+players = Array[ExtResource("1_fsu86")]([ExtResource("2_3hjmu"), ExtResource("3_uc634"), ExtResource("4_63ilc"), ExtResource("5_ifp86"), ExtResource("6_0fr7m"), ExtResource("7_dulmh"), ExtResource("8_ruldk"), ExtResource("9_ubfgu"), ExtResource("10_8l6j5"), ExtResource("11_pmvcu"), ExtResource("12_w8sbm"), ExtResource("13_yw21p"), ExtResource("14_indrq")])
 metadata/_custom_type_script = "uid://duo2uguaqhb4m"

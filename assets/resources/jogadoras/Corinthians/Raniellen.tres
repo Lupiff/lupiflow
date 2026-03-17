@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://bde21ilu0h1oc"]
+
+[ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_87fxw"]
+
+[resource]
+script = ExtResource("1_87fxw")
+name = "Raniellen"
+number = 14
+position = "VOL"
+overall = 81
+metadata/_custom_type_script = "uid://bgg3sjj0qvoye"
