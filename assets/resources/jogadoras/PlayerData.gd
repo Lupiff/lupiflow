@@ -14,4 +14,7 @@ class_name PlayerData
 @export var raridade: String = ""
 
 func get_overall() -> int:
-	return (chute + velocidade + passe + defesa + drible + folego) / 6
+	if position == "GOL":
+		return (defesa + folego + velocidade + passe) / 4
+	else:
+		return (chute + velocidade + passe + defesa + drible + folego) / 6

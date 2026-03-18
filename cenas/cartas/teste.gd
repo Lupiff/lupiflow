@@ -14,7 +14,7 @@ func _ready() -> void:
 	var jogador2 = preload ("res://assets/resources/jogadoras/GACHA/Cristiane_Rosa.tres")
 	carta_lendaria.setup(jogador2)
 	
-	var jogador3 = preload("res://assets/resources/jogadoras/Flamengo/Samira.tres")
+	var jogador3 = preload("res://assets/resources/jogadoras/GACHA/Mariana_Dias.tres")
 	carta_rara.setup(jogador3)
 	
 	

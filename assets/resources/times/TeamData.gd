@@ -13,6 +13,6 @@ func get_overall() -> int:
 	
 	var total = 0
 	for player in players:
-		total += player.overall
+		total += player.get_overall()
 	
 	return total / players.size()

@@ -40,6 +40,7 @@ offset_bottom = 37.0
 scale = Vector2(0.495, 0.495)
 
 [node name="carta_lendaria3" parent="." unique_id=327075433 instance=ExtResource("3_5ud6h")]
+visible = false
 layout_mode = 1
 offset_left = 1151.9999
 offset_top = 37.000004
@@ -48,7 +49,6 @@ offset_bottom = 37.0
 scale = Vector2(0.495, 0.495)
 
 [node name="carta_rara" parent="." unique_id=1588676753 instance=ExtResource("4_jqdi3")]
-visible = false
 layout_mode = 1
 offset_left = 1203.0001
 offset_top = 57.00006
