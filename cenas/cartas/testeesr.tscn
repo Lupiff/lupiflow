@@ -24,6 +24,7 @@ offset_bottom = 1469.0
 scale = Vector2(0.465, 0.465)
 
 [node name="carta_lendaria" parent="." unique_id=1339599498 instance=ExtResource("3_5ud6h")]
+visible = false
 layout_mode = 1
 offset_left = 631.0
 offset_top = 37.000004
@@ -32,6 +33,7 @@ offset_bottom = 37.0
 scale = Vector2(0.495, 0.495)
 
 [node name="carta_lendaria2" parent="." unique_id=1485313473 instance=ExtResource("3_5ud6h")]
+visible = false
 layout_mode = 1
 offset_left = 104.00012
 offset_top = 37.000004
@@ -49,9 +51,16 @@ offset_bottom = 37.0
 scale = Vector2(0.495, 0.495)
 
 [node name="carta_rara" parent="." unique_id=1588676753 instance=ExtResource("4_jqdi3")]
+visible = false
 layout_mode = 1
 offset_left = 1203.0001
 offset_top = 57.00006
 offset_right = 1203.0
 offset_bottom = 57.0
 scale = Vector2(0.485, 0.485)
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=1831377979]
+layout_mode = 0
+offset_right = 1917.0
+offset_bottom = 1080.0
+columns = 8
