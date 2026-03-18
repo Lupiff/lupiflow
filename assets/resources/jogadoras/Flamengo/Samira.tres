@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://wqs1orolpj5h"]
 
+[ext_resource type="Texture2D" uid="uid://db8nka1exob4l" path="res://assets/personagens/foto_carta/testeer.png" id="1_l6bf8"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_uquwb"]
 
 [resource]
@@ -7,5 +8,12 @@ script = ExtResource("1_uquwb")
 name = "Samira Lopes"
 number = 16
 position = "ATA"
-overall = 99
+chute = 80
+velocidade = 99
+passe = 90
+defesa = 78
+drible = 105
+folego = 90
+photo = ExtResource("1_l6bf8")
+raridade = "Rara"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

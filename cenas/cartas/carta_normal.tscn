@@ -1,0 +1,283 @@
+[gd_scene format=3 uid="uid://wv1lph8cb0r3"]
+
+[ext_resource type="Texture2D" uid="uid://d4djkgjlasj1k" path="res://assets/CARTAS/carta_normal.png" id="1_awbjs"]
+[ext_resource type="Script" uid="uid://cqcba4oprlhj3" path="res://cenas/cartas/carta_normal.gd" id="1_p27c0"]
+[ext_resource type="Texture2D" uid="uid://db8nka1exob4l" path="res://assets/personagens/foto_carta/testeer.png" id="2_p27c0"]
+
+[sub_resource type="Theme" id="Theme_eo4mx"]
+default_font_size = 12
+
+[sub_resource type="FontVariation" id="FontVariation_p27c0"]
+
+[sub_resource type="FontVariation" id="FontVariation_u8jl6"]
+base_font = SubResource("FontVariation_p27c0")
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_mpp4l"]
+
+[sub_resource type="FontFile" id="FontFile_gx28s"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/33/0/ascent = 0.0
+cache/0/33/0/descent = 0.0
+cache/0/33/0/underline_position = 0.0
+cache/0/33/0/underline_thickness = 0.0
+cache/0/33/0/scale = 1.0
+cache/0/34/0/ascent = 0.0
+cache/0/34/0/descent = 0.0
+cache/0/34/0/underline_position = 0.0
+cache/0/34/0/underline_thickness = 0.0
+cache/0/34/0/scale = 1.0
+cache/0/35/0/ascent = 0.0
+cache/0/35/0/descent = 0.0
+cache/0/35/0/underline_position = 0.0
+cache/0/35/0/underline_thickness = 0.0
+cache/0/35/0/scale = 1.0
+cache/0/36/0/ascent = 0.0
+cache/0/36/0/descent = 0.0
+cache/0/36/0/underline_position = 0.0
+cache/0/36/0/underline_thickness = 0.0
+cache/0/36/0/scale = 1.0
+cache/0/37/0/ascent = 0.0
+cache/0/37/0/descent = 0.0
+cache/0/37/0/underline_position = 0.0
+cache/0/37/0/underline_thickness = 0.0
+cache/0/37/0/scale = 1.0
+
+[sub_resource type="FontVariation" id="FontVariation_fvwd2"]
+
+[node name="Control" type="Control" unique_id=1067723300]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 400.0
+offset_bottom = 500.0
+script = ExtResource("1_p27c0")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1962909477]
+layout_mode = 0
+offset_right = 868.0
+offset_bottom = 1384.0
+texture = ExtResource("1_awbjs")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="PlayerFoto" type="TextureRect" parent="TextureRect" unique_id=1435999134]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 133.0
+offset_right = 797.0
+offset_bottom = 733.0
+texture = ExtResource("2_p27c0")
+
+[node name="NomePlayer" type="Label" parent="TextureRect" unique_id=800441481]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 777.0
+offset_right = 738.0
+offset_bottom = 862.4236
+theme = SubResource("Theme_eo4mx")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_u8jl6")
+theme_override_font_sizes/font_size = 59
+theme_override_styles/focus = SubResource("StyleBoxLine_mpp4l")
+text = "NOME DO JOGADOR"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PlayerPosition" type="Label" parent="TextureRect" unique_id=5508452]
+layout_mode = 0
+offset_left = 159.0
+offset_top = 447.0
+offset_right = 249.0
+offset_bottom = 506.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 43
+text = "ATA"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Overall" type="Label" parent="TextureRect" unique_id=38990970]
+layout_mode = 0
+offset_left = 112.0
+offset_top = 267.0
+offset_right = 294.0
+offset_bottom = 413.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 11
+theme_override_font_sizes/font_size = 106
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="chut" type="Label" parent="TextureRect" unique_id=1709354873]
+layout_mode = 0
+offset_left = 327.0
+offset_top = 958.0
+offset_right = 416.0
+offset_bottom = 1014.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontFile_gx28s")
+theme_override_font_sizes/font_size = 35
+text = "CHUT"
+
+[node name="vel" type="Label" parent="TextureRect" unique_id=944328830]
+layout_mode = 0
+offset_left = 327.0
+offset_top = 1035.0
+offset_right = 416.0
+offset_bottom = 1091.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontFile_gx28s")
+theme_override_font_sizes/font_size = 35
+text = "VEL"
+
+[node name="pass" type="Label" parent="TextureRect" unique_id=2023741013]
+layout_mode = 0
+offset_left = 327.0
+offset_top = 1110.0
+offset_right = 416.0
+offset_bottom = 1166.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontFile_gx28s")
+theme_override_font_sizes/font_size = 35
+text = "PASS"
+
+[node name="chutNUM" type="Label" parent="TextureRect" unique_id=1329122267]
+layout_mode = 0
+offset_left = 216.0
+offset_top = 956.0
+offset_right = 305.0
+offset_bottom = 1014.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_fvwd2")
+theme_override_font_sizes/font_size = 42
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="velNUM" type="Label" parent="TextureRect" unique_id=1450184333]
+layout_mode = 0
+offset_left = 216.0
+offset_top = 1031.0
+offset_right = 305.0
+offset_bottom = 1089.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_fvwd2")
+theme_override_font_sizes/font_size = 42
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="passNUM" type="Label" parent="TextureRect" unique_id=1705497667]
+layout_mode = 0
+offset_left = 216.0
+offset_top = 1106.0
+offset_right = 305.0
+offset_bottom = 1164.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_fvwd2")
+theme_override_font_sizes/font_size = 42
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="def" type="Label" parent="TextureRect" unique_id=1398154476]
+layout_mode = 0
+offset_left = 563.0
+offset_top = 958.0
+offset_right = 652.0
+offset_bottom = 1014.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontFile_gx28s")
+theme_override_font_sizes/font_size = 35
+text = "DEF"
+
+[node name="dri" type="Label" parent="TextureRect" unique_id=2092267788]
+layout_mode = 0
+offset_left = 563.0
+offset_top = 1035.0
+offset_right = 652.0
+offset_bottom = 1091.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontFile_gx28s")
+theme_override_font_sizes/font_size = 35
+text = "DRI"
+
+[node name="fol" type="Label" parent="TextureRect" unique_id=453606742]
+layout_mode = 0
+offset_left = 563.0
+offset_top = 1110.0
+offset_right = 652.0
+offset_bottom = 1166.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontFile_gx28s")
+theme_override_font_sizes/font_size = 35
+text = "FOL"
+
+[node name="defNUM" type="Label" parent="TextureRect" unique_id=1280919519]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 956.0
+offset_right = 541.0
+offset_bottom = 1014.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_fvwd2")
+theme_override_font_sizes/font_size = 42
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="driNUM" type="Label" parent="TextureRect" unique_id=501119419]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 1031.0
+offset_right = 541.0
+offset_bottom = 1089.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_fvwd2")
+theme_override_font_sizes/font_size = 42
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="folNUM" type="Label" parent="TextureRect" unique_id=1312925244]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 1106.0
+offset_right = 541.0
+offset_bottom = 1164.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_fvwd2")
+theme_override_font_sizes/font_size = 42
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1

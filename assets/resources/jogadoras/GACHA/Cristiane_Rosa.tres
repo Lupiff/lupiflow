@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://c55u203irh836"]
 
+[ext_resource type="Texture2D" uid="uid://cdqvhd1eaout2" path="res://assets/personagens/foto_carta/cristiane_rosa_carta.png" id="1_457xg"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_bsjaq"]
 
 [resource]
@@ -7,5 +8,12 @@ script = ExtResource("1_bsjaq")
 name = "Cristiane Rosa"
 number = 7
 position = "ATA"
-overall = 100
+chute = 99
+velocidade = 99
+passe = 99
+defesa = 99
+drible = 99
+folego = 99
+photo = ExtResource("1_457xg")
+raridade = "Lendaria"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

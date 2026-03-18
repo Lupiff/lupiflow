@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://doqe7abwsdbpv"]
 
+[ext_resource type="Texture2D" uid="uid://bre4go2jku1wh" path="res://assets/personagens/foto_carta/leona_meissi_carta.png" id="1_5o5wq"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_wj51o"]
 
 [resource]
@@ -7,5 +8,12 @@ script = ExtResource("1_wj51o")
 name = "Leona Meissi"
 number = 10
 position = "ATA"
-overall = 100
+chute = 90
+velocidade = 95
+passe = 105
+defesa = 95
+drible = 100
+folego = 89
+photo = ExtResource("1_5o5wq")
+raridade = "Lendaria"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

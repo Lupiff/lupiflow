@@ -1,11 +1,19 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://y7x68lwsvdwb"]
 
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_gsmyv"]
+[ext_resource type="Texture2D" uid="uid://cwhee6qvw7rit" path="res://assets/personagens/foto_carta/nayara_jr_carta.png" id="1_olq0t"]
 
 [resource]
 script = ExtResource("1_gsmyv")
 name = "Nayara Jr"
 number = 10
 position = "ATA/MC"
-overall = 99
+chute = 95
+velocidade = 80
+passe = 105
+defesa = 79
+drible = 105
+folego = 80
+photo = ExtResource("1_olq0t")
+raridade = "Lendaria"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"
