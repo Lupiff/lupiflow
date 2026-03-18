@@ -1,6 +1,7 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://cyky5be306ynd"]
 
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_3aguv"]
+[ext_resource type="Texture2D" uid="uid://3ewfssqxaudv" path="res://icon.svg" id="1_oseva"]
 
 [resource]
 script = ExtResource("1_3aguv")
@@ -13,5 +14,6 @@ passe = 85
 defesa = 105
 drible = 72
 folego = 90
+photo = ExtResource("1_oseva")
 raridade = "Lendaria"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

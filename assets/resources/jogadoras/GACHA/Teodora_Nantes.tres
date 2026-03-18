@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://qy7gvfxsbkoa"]
 
+[ext_resource type="Texture2D" uid="uid://3ewfssqxaudv" path="res://icon.svg" id="1_l2422"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_qjxwv"]
 
 [resource]
@@ -13,5 +14,6 @@ passe = 78
 defesa = 81
 drible = 85
 folego = 89
+photo = ExtResource("1_l2422")
 raridade = "Rara"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

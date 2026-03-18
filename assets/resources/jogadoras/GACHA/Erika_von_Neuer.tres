@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://bv7nsy4we8u8"]
 
+[ext_resource type="Texture2D" uid="uid://3ewfssqxaudv" path="res://icon.svg" id="1_fd0km"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_iincx"]
 
 [resource]
@@ -13,5 +14,6 @@ passe = 90
 defesa = 105
 drible = 40
 folego = 95
+photo = ExtResource("1_fd0km")
 raridade = "Lendaria"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

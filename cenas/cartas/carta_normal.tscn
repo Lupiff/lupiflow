@@ -15,6 +15,9 @@ base_font = SubResource("FontVariation_p27c0")
 [sub_resource type="StyleBoxLine" id="StyleBoxLine_mpp4l"]
 
 [sub_resource type="FontFile" id="FontFile_gx28s"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
 cache/0/variation_coordinates = {}
 cache/0/face_index = 0
 cache/0/embolden = 0.0

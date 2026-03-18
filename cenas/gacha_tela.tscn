@@ -96,4 +96,5 @@ offset_right = 76.0
 offset_bottom = 68.0
 text = "X"
 
+[connection signal="pressed" from="BOTOES/WISH_X1" to="." method="_on_wish_x_1_pressed"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
