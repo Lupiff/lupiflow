@@ -17,10 +17,17 @@ script = ExtResource("1_aotbe")
 [node name="carta_normal" parent="." unique_id=1067723300 instance=ExtResource("2_10fcf")]
 visible = false
 layout_mode = 0
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
 offset_left = 61.0
 offset_top = 82.0
 offset_right = 904.615
 offset_bottom = 1469.0
+grow_horizontal = 1
+grow_vertical = 1
 scale = Vector2(0.465, 0.465)
 
 [node name="carta_lendaria" parent="." unique_id=1339599498 instance=ExtResource("3_5ud6h")]
@@ -64,3 +71,12 @@ layout_mode = 0
 offset_right = 1917.0
 offset_bottom = 1080.0
 columns = 8
+
+[node name="Control" parent="." unique_id=680784222 instance=ExtResource("3_5ud6h")]
+layout_mode = 1
+
+[node name="Control2" parent="." unique_id=2096822050 instance=ExtResource("2_10fcf")]
+layout_mode = 1
+
+[node name="Control3" parent="." unique_id=409625922 instance=ExtResource("4_jqdi3")]
+layout_mode = 1

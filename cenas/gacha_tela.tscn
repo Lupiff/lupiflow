@@ -96,5 +96,22 @@ offset_right = 76.0
 offset_bottom = 68.0
 text = "X"
 
+[node name="wish1_carta_slot" type="CenterContainer" parent="." unique_id=2028952198]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -280.0
+offset_top = -440.0
+offset_right = 580.0
+offset_bottom = 943.07715
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.65, 0.65)
+mouse_filter = 2
+mouse_behavior_recursive = 1
+
 [connection signal="pressed" from="BOTOES/WISH_X1" to="." method="_on_wish_x_1_pressed"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

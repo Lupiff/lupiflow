@@ -21,7 +21,7 @@
 [ext_resource type="Texture2D" uid="uid://y4mvo2ls7aw7" path="res://assets/logos/BTN OPÇÕES.png" id="13_ouvxx"]
 
 [sub_resource type="Animation" id="Animation_ufvoi"]
-length = 0.001
+length = 0.73333335
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -204,7 +204,7 @@ tracks/3/keys = {
 "times": PackedFloat32Array(1.7500002, 2.714612),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(122, 788.1), Vector2(122, 771)]
+"values": [Vector2(122, 847), Vector2(122, 829)]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
@@ -216,7 +216,7 @@ tracks/4/keys = {
 "times": PackedFloat32Array(1.7583336, 2.7227845),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(540, 788.1), Vector2(540, 771)]
+"values": [Vector2(540, 847), Vector2(540, 829)]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
@@ -228,7 +228,7 @@ tracks/5/keys = {
 "times": PackedFloat32Array(1.7583336, 2.7227845),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(960, 788.1), Vector2(960, 771)]
+"values": [Vector2(960, 847), Vector2(960, 829)]
 }
 tracks/6/type = "value"
 tracks/6/imported = false
@@ -240,7 +240,7 @@ tracks/6/keys = {
 "times": PackedFloat32Array(1.7583336, 2.7144513),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(1381, 788.1), Vector2(1381, 771)]
+"values": [Vector2(1381, 847), Vector2(1381, 829)]
 }
 tracks/7/type = "value"
 tracks/7/imported = false

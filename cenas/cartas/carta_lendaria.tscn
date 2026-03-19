@@ -72,13 +72,14 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -193.0
-offset_top = -106.0
-offset_right = 443.9231
-offset_bottom = 209.38477
+offset_left = -960.0
+offset_top = -540.0
+offset_right = -99.99988
+offset_bottom = 843.077
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.65, 0.65)
+mouse_filter = 2
 script = ExtResource("1_ad2e0")
 
 [node name="PlayerFoto" type="TextureRect" parent="." unique_id=178535075]

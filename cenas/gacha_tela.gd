@@ -54,18 +54,22 @@ func _on_wish_x_1_pressed() -> void:
 	var jogadoraSorteada = sortearUmaJogadora(jogadoras)
 	var raridade:String = descobrirRaridade(jogadoraSorteada)
 	
+	# Limpa carta anterior
+	for filho in $wish1_carta_slot.get_children():
+		filho.queue_free()
+	
 	if raridade == "Rara":
 		var spawnRara = raraCena.instantiate()
-		add_child(spawnRara)
+		$wish1_carta_slot.add_child(spawnRara)
 		spawnRara.setup(jogadoraSorteada)
 		
 	elif raridade == "Lendaria":
 		var spawnLendaria = lendariaCena.instantiate()
-		add_child(spawnLendaria)
+		$wish1_carta_slot.add_child(spawnLendaria)
 		spawnLendaria.setup(jogadoraSorteada)
 		
 	else:
 		var spawnNormal = normalCena.instantiate()
-		add_child(spawnNormal)
+		$wish1_carta_slot.add_child(spawnNormal)
 		spawnNormal.setup(jogadoraSorteada)
 		
