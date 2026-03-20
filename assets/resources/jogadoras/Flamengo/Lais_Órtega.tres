@@ -1,6 +1,7 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://dwphpk85niyoe"]
 
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_hkvfd"]
+[ext_resource type="Texture2D" uid="uid://kg7me4lh4ssb" path="res://assets/personagens/foto_carta/fla/lais_ortega.png" id="1_jqdf2"]
 
 [resource]
 script = ExtResource("1_hkvfd")
@@ -13,5 +14,6 @@ passe = 93
 defesa = 86
 drible = 50
 folego = 90
+photo = ExtResource("1_jqdf2")
 raridade = "Rara"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

@@ -101,11 +101,12 @@ stretch_mode = 4
 
 [node name="PlayerFoto" type="TextureRect" parent="TextureRect" unique_id=766163058]
 layout_mode = 0
-offset_left = 162.0
-offset_top = 133.0
-offset_right = 799.0
+offset_left = 224.07693
+offset_top = 133.00002
+offset_right = 824.0769
 offset_bottom = 733.0
 texture = ExtResource("2_wm3yt")
+expand_mode = 2
 
 [node name="NomePlayer" type="Label" parent="TextureRect" unique_id=1073839548]
 layout_mode = 0
@@ -126,10 +127,10 @@ vertical_alignment = 1
 
 [node name="PlayerPosition" type="Label" parent="TextureRect" unique_id=98262792]
 layout_mode = 0
-offset_left = 159.0
-offset_top = 447.0
-offset_right = 249.0
-offset_bottom = 506.0
+offset_left = 148.69232
+offset_top = 451.61517
+offset_right = 250.2308
+offset_bottom = 510.61517
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 43
 text = "ATA"
@@ -138,10 +139,10 @@ vertical_alignment = 1
 
 [node name="Overall" type="Label" parent="TextureRect" unique_id=627507051]
 layout_mode = 0
-offset_left = 112.0
-offset_top = 267.0
-offset_right = 294.0
-offset_bottom = 413.0
+offset_left = 107.38461
+offset_top = 267.00003
+offset_right = 289.3846
+offset_bottom = 413.00003
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 11

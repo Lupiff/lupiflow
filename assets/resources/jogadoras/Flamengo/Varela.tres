@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://t032ii1gw7t2"]
 
-[ext_resource type="Texture2D" uid="uid://8rd6pl7wslkv" path="res://assets/personagens/foto_carta/teste2.png" id="1_f4roj"]
+[ext_resource type="Texture2D" uid="uid://c5awkeu4r4jnj" path="res://assets/personagens/foto_carta/fla/vanessa.png" id="1_f4roj"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_l2be7"]
 
 [resource]

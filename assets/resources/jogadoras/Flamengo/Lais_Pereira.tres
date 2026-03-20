@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://bp4dvhxkoj06"]
 
+[ext_resource type="Texture2D" uid="uid://lycur34q4mve" path="res://assets/personagens/foto_carta/fla/lais_pereira.png" id="1_2spex"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_7fbvg"]
 
 [resource]
@@ -13,5 +14,6 @@ passe = 89
 defesa = 105
 drible = 50
 folego = 95
+photo = ExtResource("1_2spex")
 raridade = "Rara"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://dllrdlntjxkoa"]
 
+[ext_resource type="Texture2D" uid="uid://bru3eyckylrii" path="res://assets/personagens/foto_carta/fla/Luisa_Araujo.png" id="1_ohx6y"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_qf78p"]
 
 [resource]
@@ -13,5 +14,6 @@ passe = 75
 defesa = 70
 drible = 70
 folego = 85
+photo = ExtResource("1_ohx6y")
 raridade = "Normal"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

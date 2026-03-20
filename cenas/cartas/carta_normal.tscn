@@ -101,11 +101,12 @@ stretch_mode = 4
 
 [node name="PlayerFoto" type="TextureRect" parent="TextureRect" unique_id=1435999134]
 layout_mode = 0
-offset_left = 160.0
-offset_top = 133.0
-offset_right = 797.0
+offset_left = 228.73074
+offset_top = 133.00002
+offset_right = 829.3076
 offset_bottom = 733.0
 texture = ExtResource("2_p27c0")
+expand_mode = 2
 
 [node name="NomePlayer" type="Label" parent="TextureRect" unique_id=800441481]
 layout_mode = 0
@@ -125,10 +126,10 @@ vertical_alignment = 1
 
 [node name="PlayerPosition" type="Label" parent="TextureRect" unique_id=5508452]
 layout_mode = 0
-offset_left = 159.0
-offset_top = 447.0
-offset_right = 249.0
-offset_bottom = 506.0
+offset_left = 153.34613
+offset_top = 448.53845
+offset_right = 253.34616
+offset_bottom = 507.53845
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 43
 text = "ATA"

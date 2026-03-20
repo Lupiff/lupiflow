@@ -1,6 +1,7 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://cyjbfh7hn2bd0"]
 
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_nsuk8"]
+[ext_resource type="Texture2D" uid="uid://cqskgnglygtft" path="res://assets/personagens/foto_carta/fla/Rossine.png" id="1_smuoj"]
 
 [resource]
 script = ExtResource("1_nsuk8")
@@ -13,5 +14,6 @@ passe = 95
 defesa = 105
 drible = 75
 folego = 70
+photo = ExtResource("1_smuoj")
 raridade = "Rara"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

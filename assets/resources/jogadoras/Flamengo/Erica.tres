@@ -1,6 +1,7 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://ctj32nxk65g2g"]
 
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_3ooxg"]
+[ext_resource type="Texture2D" uid="uid://ddtow1rvkyh63" path="res://assets/personagens/foto_carta/fla/erica.png" id="1_83ajr"]
 
 [resource]
 script = ExtResource("1_3ooxg")
@@ -13,5 +14,6 @@ passe = 90
 defesa = 95
 drible = 70
 folego = 90
+photo = ExtResource("1_83ajr")
 raridade = "Rara"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

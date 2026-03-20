@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://cxkq4jun8e676"]
 
+[ext_resource type="Texture2D" uid="uid://dv65t8j84twfy" path="res://assets/personagens/foto_carta/fla/Bruna.png" id="1_44hdc"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_xfhfo"]
 
 [resource]
@@ -13,5 +14,6 @@ passe = 70
 defesa = 70
 drible = 85
 folego = 79
+photo = ExtResource("1_44hdc")
 raridade = "Rara"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

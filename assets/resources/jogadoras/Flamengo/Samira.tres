@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://wqs1orolpj5h"]
 
-[ext_resource type="Texture2D" uid="uid://db8nka1exob4l" path="res://assets/personagens/foto_carta/testeer.png" id="1_l6bf8"]
+[ext_resource type="Texture2D" uid="uid://dcdt0h6us2d4g" path="res://assets/personagens/foto_carta/fla/samira.png" id="1_l6bf8"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_uquwb"]
 
 [resource]

@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://d35bt0ucu3uhk"]
 
+[ext_resource type="Texture2D" uid="uid://b4njxr2gjvkca" path="res://assets/personagens/foto_carta/fla/paquetop.png" id="1_22fei"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_ypj5a"]
 
 [resource]
@@ -13,5 +14,6 @@ passe = 100
 defesa = 80
 drible = 100
 folego = 80
+photo = ExtResource("1_22fei")
 raridade = "Lendaria"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"

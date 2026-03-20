@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="PlayerData" format=3 uid="uid://bj4u887mhm8nl"]
 
+[ext_resource type="Texture2D" uid="uid://dnlhy3ijvqi3a" path="res://assets/personagens/foto_carta/fla/alessandra.png" id="1_cgfq4"]
 [ext_resource type="Script" uid="uid://bgg3sjj0qvoye" path="res://assets/resources/jogadoras/PlayerData.gd" id="1_d0x7c"]
 
 [resource]
@@ -13,5 +14,6 @@ passe = 94
 defesa = 96
 drible = 78
 folego = 89
+photo = ExtResource("1_cgfq4")
 raridade = "Rara"
 metadata/_custom_type_script = "uid://bgg3sjj0qvoye"
