@@ -13,7 +13,7 @@ func _process(delta: float) -> void:
 	pass
 
 
-const jogadoras: Array[PlayerData] = [
+const jogadorasLendarias: Array[PlayerData] = [
 	preload("res://assets/resources/jogadoras/GACHA/Amelie_Kyliane.tres"),
 	preload("res://assets/resources/jogadoras/GACHA/Cassia_Monteiro.tres"),
 	preload("res://assets/resources/jogadoras/GACHA/Cristiane_Rosa.tres"),
@@ -21,18 +21,32 @@ const jogadoras: Array[PlayerData] = [
 	preload("res://assets/resources/jogadoras/GACHA/Karine_De_Bruyne.tres"),
 	preload("res://assets/resources/jogadoras/GACHA/Layla_Hakimi.tres"),
 	preload("res://assets/resources/jogadoras/GACHA/Leona_Meissi.tres"),
-	preload("res://assets/resources/jogadoras/GACHA/Mariana_Dias.tres"),
 	preload("res://assets/resources/jogadoras/GACHA/Nayara.tres"),
-	preload("res://assets/resources/jogadoras/GACHA/Teodora_Nantes.tres"),
 	preload("res://assets/resources/jogadoras/GACHA/Veronica_Van_Dijk.tres")
+]
+
+const jogadorasNormal: Array[PlayerData] = [
+	preload("res://assets/resources/jogadoras/GACHA/Mariana_Dias.tres")
+	
+]
+
+const jogadorasRaras: Array[PlayerData] = [
+	preload("res://assets/resources/jogadoras/GACHA/Teodora_Nantes.tres")
 ]
 
 func _on_button_pressed() -> void:
 	get_tree().change_scene_to_file("res://cenas/tela inicial.tscn")
 
 
-func sortearUmaJogadora(array:Array) -> PlayerData:
-	var sorteada = array.pick_random()
+func sortearUmaJogadora() -> PlayerData:
+	var numero = randi_range(1, 100)
+	var sorteada: PlayerData
+	if numero <=5:
+		sorteada = jogadorasLendarias.pick_random()
+	elif numero <= 25:
+		sorteada = jogadorasRaras.pick_random()
+	else:
+		sorteada = jogadorasNormal.pick_random()
 	return sorteada
 	
 
@@ -51,7 +65,7 @@ func _on_wish_x_1_pressed() -> void:
 	const lendariaCena = preload("res://cenas/cartas/carta_lendaria.tscn")
 	const normalCena = preload("res://cenas/cartas/carta_normal.tscn")
 	
-	var jogadoraSorteada = sortearUmaJogadora(jogadoras)
+	var jogadoraSorteada = sortearUmaJogadora()
 	var raridade:String = descobrirRaridade(jogadoraSorteada)
 	
 	# Limpa carta anterior
